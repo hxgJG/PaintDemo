@@ -464,7 +464,7 @@ class PaintView : View {
         mRedPaint.shader = bs
 
         mRedPaint.style = Paint.Style.FILL
-        val path = CommonPath.nStarPath(50, 500f, 250f)
+        val path = CommonPath.nStarPath(5, 500f, 250f)
         canvas.drawPath(path, mRedPaint)
     }
 
